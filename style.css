@@ -8,16 +8,22 @@ input {
     padding: 0.9rem;
     font-size: 1.2rem;
     border-radius: 5px;
-    border: 0;
+    border: none; 
     margin: 10px;
 }
-a {
-    color: #ffedbf;
-    font-size: 0.8rem;
-}
-input::before {
-    outline: none;
+input:focus {
+    outline: 2px solid #f7803c; 
     box-shadow: 0 0 10px #f7803c;
+}
+a {
+    color: #CCC;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFF;
 }
 .container {
     background-color: #E9E9E9 ;
